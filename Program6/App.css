@@ -1,0 +1,27 @@
+/* Program 6 - App.css */
+.App { background: #f0f4ff; min-height: 100vh; display: flex; justify-content: center; align-items: center; font-family: 'Segoe UI', sans-serif; padding: 20px; }
+
+.form-card { background: white; border-radius: 16px; padding: 36px; width: 100%; max-width: 420px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); }
+
+h2 { color: #2c3e50; margin-bottom: 24px; font-size: 1.1rem; text-align: center; }
+
+.field-group { margin-bottom: 18px; display: flex; flex-direction: column; gap: 6px; }
+
+label { font-weight: 600; color: #444; font-size: 0.9rem; }
+
+.field { padding: 10px 14px; font-size: 1rem; border: 2px solid #ddd; border-radius: 8px; width: 100%; box-sizing: border-box; transition: border-color 0.2s; }
+.field:focus { border-color: #3498db; outline: none; }
+.field.invalid { border-color: #e74c3c; }
+
+.error { color: #e74c3c; font-size: 0.82rem; }
+
+.password-wrapper { display: flex; gap: 8px; align-items: center; }
+.password-wrapper .field { flex: 1; }
+
+.toggle-pw { padding: 8px 12px; background: #ecf0f1; border: 1px solid #ccc; border-radius: 8px; cursor: pointer; font-size: 0.85rem; white-space: nowrap; }
+.toggle-pw:hover { background: #d5dbdb; }
+
+.submit-btn { width: 100%; padding: 12px; background: #2ecc71; color: white; border: none; border-radius: 8px; font-size: 1rem; font-weight: bold; cursor: pointer; margin-top: 8px; }
+.submit-btn:hover { background: #27ae60; }
+
+.success-banner { background: #eafaf1; border: 1px solid #27ae60; border-radius: 8px; padding: 12px 16px; margin-bottom: 20px; color: #1e8449; font-size: 0.9rem; line-height: 1.6; }

@@ -1,0 +1,36 @@
+/* Program 1 - App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  background-color: #f0f4f8;
+  min-height: 100vh;
+}
+
+.container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.input-field {
+  padding: 12px 20px;
+  font-size: 18px;
+  width: 350px;
+  border: 2px solid #4a90d9;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input-field:focus {
+  border-color: #1a5fa8;
+}
+
+.display-text {
+  color: #1a5fa8;
+  font-size: 2.5rem;
+  margin-top: 20px;
+}

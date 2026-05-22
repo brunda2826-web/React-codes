@@ -1,0 +1,35 @@
+/* Program 10 - App.css */
+.App { background: #f0f4ff; min-height: 100vh; font-family: 'Segoe UI', sans-serif; padding: 30px 20px; }
+
+.fetcher-container { background: white; border-radius: 16px; padding: 32px; max-width: 900px; margin: 0 auto; box-shadow: 0 8px 24px rgba(0,0,0,0.1); }
+
+h2 { color: #2c3e50; margin-bottom: 6px; font-size: 1.1rem; }
+.subtitle { color: #888; font-size: 0.85rem; margin-bottom: 20px; }
+
+.controls { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; }
+
+.ctrl-input { flex: 1; min-width: 200px; padding: 9px 14px; border: 2px solid #ddd; border-radius: 8px; font-size: 0.9rem; }
+.ctrl-input:focus { border-color: #5b6ef5; outline: none; }
+
+.ctrl-select { padding: 9px 14px; border: 2px solid #ddd; border-radius: 8px; font-size: 0.9rem; }
+
+.refresh-btn { padding: 9px 18px; background: #5b6ef5; color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 0.9rem; }
+.refresh-btn:hover { background: #4a5be0; }
+
+.status { padding: 12px 16px; border-radius: 8px; margin-bottom: 14px; font-size: 0.9rem; }
+.status.loading { background: #eef4ff; color: #3498db; }
+.status.error { background: #fdf0f0; color: #e74c3c; }
+
+.data-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+.data-table th { background: #5b6ef5; color: white; padding: 10px 12px; text-align: left; }
+.data-table td { padding: 10px 12px; border-bottom: 1px solid #eee; color: #444; vertical-align: top; }
+.data-table tr:hover td { background: #f8f9ff; }
+
+.pagination { display: flex; align-items: center; gap: 14px; justify-content: center; margin-top: 20px; }
+
+.page-btn { padding: 8px 18px; background: #5b6ef5; color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 0.9rem; }
+.page-btn:disabled { background: #ccc; cursor: not-allowed; }
+.page-btn:not(:disabled):hover { background: #4a5be0; }
+
+.page-info { font-weight: bold; color: #555; }
+.empty { text-align: center; color: #bbb; padding: 24px 0; }
